@@ -1,0 +1,17 @@
+telegram:
+  bot:
+    name: ${botName}
+    token: ${botToken}
+openai:
+  api:
+    key: ${openAiKey}
+  system-message: ${systemMessage}
+spring:
+  datasource:
+    url: ${psqlUrl}
+    username: ${userName}
+    password: ${password}
+    jpa:
+      database: POSTGRESQL
+      show-sql: true
+      generate-ddl: true
