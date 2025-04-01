@@ -28,7 +28,7 @@ public class GenAiService {
     @Autowired
     private TelegramChatService telegramChatService;
 
-    private String systemMessage;
+    private final String systemMessage;
 
     private final OpenAiChatModel model;
 
